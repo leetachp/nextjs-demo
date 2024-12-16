@@ -2,7 +2,6 @@
 
 import { cn } from "@/lib/utils";
 import { BackgroundGradientAnimation } from "./GradientBg";
-import Grid from "../Grid";
 import { useState } from "react";
 import animationData from '@/data/confetti.json';
 import Lottie from "react-lottie";
@@ -49,7 +48,7 @@ export const BentoGridItem = ({
   titleClassName?: string;
   spareImg?: string;
 }) => {
- const [first, setfirst] = useState(false);
+
  const [copied, setCopied] = useState(false);
  const handleCopy = () => {
   navigator.clipboard.writeText('Tachaya1342@gmail.com');

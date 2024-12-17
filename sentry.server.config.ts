@@ -17,8 +17,6 @@ Sentry.init({
 module.exports = {
   sentry: {
     dsn: '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',
-    authToken: process.env.SENTRY_AUTH_TOKEN, // ใช้ตัวแปรสภาพแวดล้อม
+    authToken: process.env.SENTRY_AUTH_TOKEN, 
   },
 }
-
-

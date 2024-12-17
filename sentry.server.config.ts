@@ -13,3 +13,12 @@ Sentry.init({
   // Setting this option to true will print useful information to the console while you're setting up Sentry.
   debug: false,
 });
+
+module.exports = {
+  sentry: {
+    dsn: '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',
+    authToken: process.env.SENTRY_AUTH_TOKEN, // ใช้ตัวแปรสภาพแวดล้อม
+  },
+}
+
+
